@@ -5,7 +5,7 @@
 //going home cost for 15p/mile [train]
 
 /*--------------------------------------------*/console.log();
-//===============================================VAR:
+//=============================================== DECLARATIONS:
 var questions =[
   'Q1/4: Where do you live now?',
   'Q2/4: What industry do you work in?',
@@ -28,6 +28,7 @@ var spanCityColor="<span class=\"spanGreen\">";
 var spanIndustryColor="<span class=\"spanGreen\">";
 var summaryIndicator= "better";
 var spanSummaryColor="<span class=\"fontBigger spanGreen\">";
+
 //===============================================FUNCT:
 
 //inputs whatMsg into html where (by ID)
