@@ -1,0 +1,122 @@
+
+/* ===============GLOBAL: */
+* {
+}
+/*
+font stack: font-family: 'Roboto', sans-serif;
+colors:
+*/
+
+
+body,
+.dataContainer {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-size: 5vh;
+  background-image: url("img/skyline.jpg");
+  background-size: cover;
+  align-items: center;
+  flex-direction: row;
+}
+p {
+  font-size: .5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.img {
+   height: 5em;
+   width: 5em;
+   border-radius: 50%;
+   position: absolute;
+   border: 0.3em solid #aaa;
+}
+
+/* ===============BY CLASS: */
+.moveCentral {
+  text-align: center;
+}
+.moveLower {
+  margin-top: 2em;
+}
+
+.moveRight {
+  text-align: right;
+}
+.fontBigger{
+  font-size: 1.5em;
+}
+
+.incomeFigure {
+  font-size: 0.7em;
+  text-align: center;
+  color: green;
+}
+.outcomeFigure {
+color: red;
+}
+
+.titleBolder {
+  font-weight: bold;
+}
+.spanRed{
+  color:red;
+}
+.spanGreen{
+  color:green;
+}
+/* ===============CONTAINERS: */
+.container {
+  margin: 0.2em;
+  border-radius: 5px;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0.1em;
+  background-color: #fff;
+  /* border: 1px solid red; */
+}
+
+.dataContainer {
+  flex-direction: row;
+}
+
+/* ===============by ID: */
+#leftContainer,
+#rightContainer {
+  background-color: #aaa;
+  margin: 2em;
+}
+#leftContainer{
+}
+#rightContainer{
+  height: 80vh;
+}
+
+
+#topCurrentContainer,
+#bottomFutureContainer {
+  position: relative;
+}
+
+#topPicture{
+  top: -5.5em;
+  right: -3em;
+}
+#bottomPicture{
+  bottom:-4em;
+  right: -3em;
+}
+
+#dataCurrentIn,
+#dataFutureIn {
+  margin-left: 1em;
+  /* background-color: white; */
+}
+
+#change1,
+#change2,
+#change3 {
+  height: 30%;
+}
